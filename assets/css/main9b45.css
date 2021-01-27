@@ -16550,7 +16550,24 @@ drag .news-relate__item:last-child {
 }
 
 
+::-webkit-scrollbar {
+	width: 10px;
+  }
   
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgb(19, 18, 18); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(68, 67, 67); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+  }
 
   
   
