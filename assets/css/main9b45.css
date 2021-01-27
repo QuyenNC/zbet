@@ -11490,7 +11490,8 @@ html {
 		.32turn
 		,#ebc026 5.69%,#c06800 62.72%);
 	box-shadow: 0 4px 4px rgb(0 0 0 / 25%), inset 0 -4px 5px rgb(217 130 0 / 87%);
-    transition: all .3s ease-in-out;
+	transition: all .2s ease-in-out;
+	
 }
 .btn--head:hover {
 	background-position: 100% 0;
@@ -11500,6 +11501,9 @@ html {
 	transition: all .4s ease-in-out;
 	color: white;
 } 
+.btn--head:active{
+	transform: scale(0.9);
+}
 .btn--head-deposit {
   color: #272626;
   background-color: #E7AC16;
