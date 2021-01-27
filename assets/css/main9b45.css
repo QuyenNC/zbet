@@ -11473,81 +11473,34 @@ html {
 	position: relative;
 	display: inline-block;
 	padding: 5px 15px;
-	color: #2196f3;
+	color: white;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	overflow: hidden;
 	transition: 0.2s;
-	border: 1px solid #2196f3 ;
 	font-size: 14px;
+	border: none;
+	background-size: 300% 100%;
+	-moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	background-image: linear-gradient(to right, #25a9e1da, #40e495c9, #30dd8a, #2bb673);
 }
 .btn--head:hover {
-  color: #255784;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;
-  transition-delay: 1s;
-  border: none;
+	background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 } 
-.btn--head span{
-	position: absolute;
-	display: block;
-}
-.btn--head span:nth-child(1){
-	top:0;
-	left: -100%;
-	width: 100%;
-	height: 2px;
-	background: linear-gradient(90deg,transparent,#2196f3);
-}
-.btn--head:hover span:nth-child(1)  {
-	left: 100%;
-	transition:1s;
-  } 
-  .btn--head span:nth-child(2){
-	top:-100%;
-	right: 0;
-	width: 2px;
-	height: 100%;
-	background: linear-gradient(180deg,transparent,#2196f3);
-}
-.btn--head:hover span:nth-child(2)  {
-	top: 100%;
-	transition:1s;
-	transition-delay: 0.25s;
-  } 
-  .btn--head span:nth-child(3){
-	bottom:0;
-	right: -100%;
-	width: 100%;
-	height: 2px;
-	background: linear-gradient(270deg,transparent,#2196f3);
-}
-.btn--head:hover span:nth-child(3)  {
-	right: 100%;
-	transition:1s;
-	transition-delay: 0.5s;
-  } 
-  .btn--head span:nth-child(4){
-	bottom:-100%;
-	left: 0;
-	width: 2px;
-	height: 100%;
-	background: linear-gradient(360deg,transparent,#21f3e9);
-}
-.btn--head:hover span:nth-child(4)  {
-	bottom: 100%;
-	transition:1s;
-	transition-delay: 0.75s;
-  } 
-
 .btn--head-deposit {
   color: #272626;
   background-color: #E7AC16;
 }
 .btn--head-sign-up {
 	margin-left: 10px;
-  background-color: #29eb22;
-  color: #000;
+  	color: white;
 }
 
 .btn--wallet {
