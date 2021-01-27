@@ -11472,13 +11472,14 @@ html {
 .btn--head {
 	position: relative;
 	display: inline-block;
-	padding: 10px 30px;
+	padding: 5px 15px;
 	color: #2196f3;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	overflow: hidden;
 	transition: 0.2s;
 	border: 1px solid #2196f3 ;
+	font-size: 14px;
 }
 .btn--head:hover {
   color: #255784;
