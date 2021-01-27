@@ -111,46 +111,29 @@
                     </li>
                 </ul>
                 <div class="header-account visible-pc">
-                    <div class="header-account__sign-in">
-                        <form id="f_home_nav_login" action="http://zbet.win/user/login" method="post"
-                            class="form form--login-head">
-                            <div class="form-group">
-                                <input type="text" name="username" class="username input--head" value=""
-                                    placeholder="Tên đăng nhập" />
-                            </div>
-                            <div class="form-group">
-                                <input type="password" name="password" id="passLoginHearder"
-                                    class="password input--head" value="" placeholder="Mật khẩu" />
-                                <p toggle="#passLoginHearder" class="showhidepass">
-                                    <img src="assets/images/icons/header/eye.svg" alt="">
-                                    <img src="assets/images/icons/header/eye-close.svg" alt="">
-                                </p>
-                            </div>
-                            <div class="form__btn">
-                                <button type="submit" class="btn btn--head btn--head-sign-in">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    Đăng Nhập
-                                </button>
-                            </div>
-                        </form>
-
-
-                    </div>
                     <div class="header-account__sign-up">
                         <div class="form__btn">
+                            <a href="javascript:void(0)" id="btn-regis" class="btn btn--head btn--head-sign-in"
+                            data-action="signin" data-toggle="modal" 
+                            data-target="#pop-pls-sign"><span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Đăng Nhập
+                            </a>
+                        </div>
+                        <div class="form__btn">
                             <a href="javascript:void(0)" id="btn-regis" class="btn btn--head btn--head-sign-up"
-                                data-action="signup" data-toggle="modal" data-des="//zbet.win/"
+                                data-action="signup" data-toggle="modal" 
                                 data-target="#pop-pls-sign"><span></span>
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                                Đăng Ký</a>
+                                Đăng Ký
+                            </a>
                         </div>
                         <div id="box_signup" class="account-signin" style="display:none">
-                            <form id="form-signin" method="post" action="http://zbet.win/user/register">
+                            <form id="form-signin" method="post" >
                                 <p><input type="text" name="username" placeholder="Tên đăng nhập"></p>
                                 <p><input type="password" name="password" id="signup_password" placeholder="Mật khẩu">
                                 </p>
